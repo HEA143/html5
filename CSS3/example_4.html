@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Absolute Position</title>
+
+    <style>
+        #container {
+            width: 500px;
+            height: 300px;
+            border: 3px solid black;
+            overflow: hidden;
+            position: relative;
+        }
+        .circle {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50% 50%;
+        }
+
+        #tomato {
+            background: tomato;
+            left: 20px; top: 20px;
+        }
+
+        #palegreen {
+            background: palegreen;
+            right: 20px; top: 20px;
+        }
+
+        #paleturquoise {
+            background: paleturquoise;
+            right: 20px; bottom: 20px;
+        }
+
+        #khaki {
+            background: khaki;
+            left: 20px; bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dummy Text</h1>
+    <div id="container">
+        <div id="tomato" class="circle"></div>
+        <div id="palegreen" class="circle"></div>
+        <div id="paleturquoise" class="circle"></div>
+        <div id="khaki" class="circle"></div>
+    </div>
+</body>
+</html>
